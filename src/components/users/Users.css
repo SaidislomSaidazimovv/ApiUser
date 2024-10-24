@@ -1,0 +1,47 @@
+.users__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.users__card {
+  width: 280px;
+  padding: 20px;
+  line-height: 1.6;
+  border-radius: 10px;
+  margin: 20px;
+  border: 2px solid rgba(31, 24, 24, 0.067);
+  text-align: center;
+
+  &:hover {
+    box-shadow: 0 0 8px #0002, 15px 15px 15px #0001;
+    scale: 1.01;
+    transition: 0.3s;
+  }
+}
+
+.users__card img {
+  width: 100%;
+}
+
+.users__card h2 {
+  color: dodgerblue;
+}
+
+.users__card button {
+  padding: 6px 20px;
+  background: crimson;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.users__card button:active {
+  opacity: 0.7;
+}
+
+.remove{
+  margin-right: 10px;
+}

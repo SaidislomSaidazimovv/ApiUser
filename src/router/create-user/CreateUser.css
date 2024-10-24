@@ -1,0 +1,42 @@
+.create__user {
+  padding: 40px 10%;
+}
+
+.create__user h2 {
+  color: violet;
+}
+
+.create__user-form input,
+.create__user-form select,
+.create__user-form button {
+  display: block;
+  width: 300px;
+  height: 40px;
+  margin-top: 16px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+.create__user-form input:focus,
+.create__user-form select:focus {
+  outline: 2px solid #aad5ff;
+}
+
+.create__user-form button {
+  background: dodgerblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+.create__user-form button:active {
+  opacity: 0.7;
+}
+
+.create__user-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}

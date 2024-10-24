@@ -1,0 +1,57 @@
+.navbar {
+  height: 80px;
+  background: linear-gradient(30deg, dodgerblue, violet);
+  color: #fff;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar a.active {
+  color: crimson;
+}
+.navbar a sup {
+  background: crimson;
+  color: #fff;
+  padding: 1px 3px;
+  min-width: 16px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 11px;
+}
+
+.like {
+  width: 20px;
+  height: 20px;
+  margin-top: 15%;
+}
+
+.shopping-cart {
+  width: 20px;
+  height: 20px;
+  margin-top: 15%;
+}
+
+.like-sup {
+  position: absolute;
+  font-size: 10px;
+  right: 217px;
+}
+
+.shopping-sup {
+  position: absolute;
+  font-size: 10px;
+  right: 155px;
+}
+
+.nav{
+  margin-left: 49%;
+}
